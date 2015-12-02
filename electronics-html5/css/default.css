@@ -1474,8 +1474,7 @@ ul#desktopMenu {
 	float:left;
 	max-width:75%;
 	position:relative;
-	max-height: 60px;
-    overflow: hidden;
+    overflow: visible;
 }
 ul#desktopMenu li {
 	display: inline-block;
@@ -1502,12 +1501,12 @@ ul#desktopMenu li ul {
     padding: 10px;
     /*position: absolute;*/
     text-align: center;
-    top: 215px;
+    top: 40px;
     width: 250px;
     z-index: 10;
 	
 	
-	position:fixed;
+	position:absolute;
 	/*left: 55%;*/
 	background: #ffffff;
 	/*margin-left: -110px;*/
